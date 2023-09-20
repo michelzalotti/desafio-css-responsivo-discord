@@ -1,0 +1,14 @@
+.main-header {
+  padding: 70px 24px;
+  background: url("../images/header-mobile.png") no-repeat center center / cover;
+}
+
+.main-header p {
+  margin: 26px 0;
+}
+
+.main-header-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

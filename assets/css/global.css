@@ -25,6 +25,26 @@
   background-color: #f6f6f6;
 }
 
-section {
+.primary-button,
+.secondary-button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 28px;
+  padding: 16px 0;
+  width: 100%;
+}
+
+.primary-button {
+  background-color: #fff;
+  color: #23272a;
+}
+
+.secondary-button {
+  background-color: #23272a;
+  color: #fff;
+}
+
+section,
+footer {
   padding: 40px 24px;
 }
