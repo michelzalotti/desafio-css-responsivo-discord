@@ -10,5 +10,28 @@
 .main-header-buttons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    background: url("../images/header-full.png") no-repeat left top / cover;
+  }
+
+  .main-header-content {
+    margin: 0 auto;
+    max-width: 757px;
+    text-align: center;
+  }
+
+  .main-header-buttons {
+    flex-direction: row;
+  }
+
+  .main-header .title {
+    font-size: 3.5rem;
+    max-width: 10ch;
+    margin: 0 auto;
+  }
 }
